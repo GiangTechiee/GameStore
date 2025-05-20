@@ -1,13 +1,13 @@
 ﻿using GameStore.Data;
 using GameStore.Repositories.IRepositories;
 using GameStore.Services.IService;
-using Microsoft.EntityFrameworkCore;
 using GameStore.Repositories.MyRepositories;
 using GameStore.Services.MyServices;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using GameStore.Services.IServices;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
